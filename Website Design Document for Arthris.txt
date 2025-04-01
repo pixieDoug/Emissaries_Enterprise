@@ -1,0 +1,128 @@
+Website Design Document for Arthrisum
+📌 Project Overview
+Product Name: Arthrisum
+Purpose: Inform and engage Healthcare Professionals (HCPs) about Arthrisum – a new, fictional treatment for arthritis.
+Primary Goal: Drive awareness, education, and eventual prescribing consideration of Arthrisum among rheumatologists, general practitioners, and other medical professionals.
+
+🎯 Target Audience
+Primary: Licensed Healthcare Professionals (HCPs), especially:
+
+Rheumatologists
+
+Primary Care Physicians
+
+Nurse Practitioners
+
+Physician Assistants
+
+Secondary: Pharmacists, Medical Science Liaisons (MSLs), and researchers
+
+🗺️ Information Architecture (Site Map)
+java
+Copy
+Edit
+Home
+│
+├── About Arthrisum
+│   ├── Mechanism of Action
+│   ├── Clinical Trials
+│   ├── Safety & Efficacy
+│
+├── Prescribing Information
+│   ├── Dosing & Administration
+│   ├── Contraindications
+│   └── Adverse Events
+│
+├── HCP Resources
+│   ├── Patient Brochures (Downloadable PDFs)
+│   ├── Infographics & MOA Videos
+│   └── Rep Contact / MSL Request
+│
+├── Clinical Data
+│   ├── Publications & Studies
+│   ├── Investigator Insights (Quotes, Interviews)
+│   └── Comparison with Standard of Care
+│
+├── FAQs
+│
+└── Login / HCP Verification
+🎨 Design & UX Guidelines
+Aesthetic
+Tone: Professional, clean, scientific
+
+Color Palette:
+
+Primary: Soft blues and whites (clinical)
+
+Accent: Deep teal or muted green (trust, wellness)
+
+Fonts:
+
+Headers: Roboto / Open Sans Bold
+
+Body: Helvetica / Lato
+
+Imagery:
+
+Anatomical visuals (joint health)
+
+Diverse HCPs in clinical settings
+
+Molecular graphics for MOA explanation
+
+Layout
+Mobile-first design, responsive on all devices
+
+Sticky Nav Bar with fast access to Prescribing Info
+
+Use cards for resources and data visualizations
+
+Callouts for key data (Efficacy %, AE rates)
+
+⚙️ Functionality Requirements
+Feature	Description
+HCP Verification	Simple gate or NPI check to restrict access to HCPs
+Search Function	Search bar across all clinical content
+Download Center	PDFs, slide decks, and patient handouts
+Video Embeds	MOA animations, Key Opinion Leader (KOL) interviews
+Contact Form	Request follow-up, samples, or MSL outreach
+Analytics	Track page visits, time spent, downloads, etc.
+🧬 Content Guidelines
+Page	Key Elements
+Home	Hero image, brief value proposition, CTA to “Learn More”
+About Arthrisum	Description of drug, MOA animation, animated diagram
+Clinical Trials	Data tables, summary of phases, endpoints & outcomes
+Safety	Risk/benefit profile, common AEs, black box (if any)
+Prescribing Info	Structured label in collapsible sections
+HCP Resources	Infographics, downloadables, rep contact
+Clinical Data	Links to PubMed, abstracts, comparative charts
+FAQs	Common questions from HCPs with evidence-based answers
+🔒 Compliance & Regulatory
+Include ISI (Important Safety Information) on every page footer
+
+Link to full Prescribing Information (PI) and Medication Guide
+
+Add fair balance between efficacy claims and safety data
+
+Ensure non-promotional tone for investigational claims (if pre-approval)
+
+Add disclaimer: “For Healthcare Professionals Only”
+
+🧠 Content Examples (Short Form)
+Hero CTA:
+"Targeting the inflammation beneath the pain. Discover Arthrisum’s novel IL-7 inhibition."
+
+MOA Blurb:
+"Arthrisum selectively inhibits interleukin-7, helping reduce synovial inflammation and joint degradation."
+
+Safety Callout:
+"In a 24-week trial, Arthrisum showed a 5.3% discontinuation rate due to adverse events."
+
+🧪 Optional Advanced Features (Stretch Goals)
+Chatbot for FAQs (trained on PI and safety info)
+
+Interactive dosing calculator
+
+Embedded CME (Continuing Medical Education) modules
+
+“Compare to Competitor” slider with data overlay
